@@ -1,0 +1,16 @@
+.ui.sidebar.inverted.vertical.menu.teal.labeled.icon
+  a.item.toc href='#home'
+    i.home.icon
+    | Home
+  = link_to '<i class="list layout icon"></i>Projects'.html_safe, '#projects', class: 'item toc'
+  = link_to '<i class="power icon"></i>Contact Us'.html_safe, '#contactus', class: 'item toc'
+
+.ui.top.borderless.fixed.teal.inverted.compact.menu.large.transition.hidden
+  div class="ui container"
+    a.mobile-only class="toc item"
+      i class="sidebar icon"
+    a.computer-only.item href='#home'
+      i.home.icon
+      | Home
+    = link_to '<i class="list layout icon"></i>Projects'.html_safe, '#projects', class: 'item computer-only'
+    = link_to '<i class="power icon"></i>Contact Us'.html_safe, '#contactus', class: 'item computer-only'

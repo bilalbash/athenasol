@@ -1,0 +1,7 @@
+- flash.each do |name, msg|
+  - if msg.is_a?(String)
+    div.ui.message class="#{name.to_s == 'notice' ? 'success' : 'error'}"
+      i class="close icon"
+      div class="header"= name.to_s == 'notice' ? 'Success!' : 'Error!'
+      p= msg
+

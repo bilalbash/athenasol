@@ -9,7 +9,6 @@ gem 'sass-rails',   '5.0.3'   # Use SCSS for stylesheets
 gem 'uglifier',     '2.7.1'   # Use Uglifier as compressor for JavaScript assets
 gem 'coffee-rails', '4.1.0'   # Use CoffeeScript for .coffee assets and views
 gem 'jquery-rails', '4.0.3'   # Use jquery as the JavaScript library
-gem 'turbolinks',   '2.5.3'   # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'jbuilder',     '2.2.13'  # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'sdoc',         '0.4.1', group: :doc # bundle exec rake doc:rails generates the API under doc/api.
 gem 'zeus',         '0.15.4'
